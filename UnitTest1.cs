@@ -7,10 +7,10 @@ namespace UnitTestProject3
     public class UnitTest1
     {
         [TestMethod]
-        public void Happy_Mood()
+        public void Sad_Mood()
         {  //   //Arrange;
-            MoodAnalyser mood = new MoodAnalyser("I am in happy mood");
-            string expected = "happy";
+            MoodAnalyser mood = new MoodAnalyser("I am in sad mood");
+            string expected = "sad";
 
             ////Act
             string actual = mood.Analyser();
